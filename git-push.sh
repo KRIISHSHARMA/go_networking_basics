@@ -12,6 +12,9 @@ else
     read github_url
     git remote add origin $github_url
     echo "Pushing data to the remote server!!!"
-    git push -u origin master
+    sleep(1)
+    echo "Enter branch : "
+    read branch
+    git push -u origin $(branch)
 fi
 
