@@ -14,6 +14,6 @@ else
     echo "Pushing data to the remote server!!!"
     echo "Enter branch : "
     read branch
-    git push -u origin $(branch)
+    git push -u origin $branch
 fi
 
